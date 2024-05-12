@@ -1,5 +1,6 @@
 body {
     font-family:"Roboto", sans-serif;
+    color: #434455;
     background-color: #fff;}
 ul {list-style-type: none;}
 .logo {
@@ -37,6 +38,12 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #404bbf;
 }
+.nav-list .link .link-studio:focus {
+    color: #404bbf; 
+}
+.address {
+    font-style: normal;
+}
 .mail {
     font-weight: 400;
 font-size: 16px;
@@ -51,6 +58,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #404bbf;
+}
+.mail:focus {
+    color: #404bbf;
 }
 .tel {
     font-weight: 400;
@@ -70,7 +80,7 @@ text-decoration: none;
 .section-title {
     font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -80,6 +90,7 @@ color: #fff;
 }
 .button {
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -92,6 +103,16 @@ background-color: #4d5ae5;
 font-size: 16px;
 letter-spacing: 0.04em;
 color: #fff;
+background-color: #404BBF;
+}
+.button:focus {
+    background-color: #404BBF;
+}
+.features {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;  
 }
 .first-section-title {
     font-weight: 500;
@@ -113,10 +134,14 @@ color: #434455;
 .second-section-title {
     font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 color: #2e2f42;
+}
+.member-cards {
+    background-color: #FFFFFF;
 }
 .team-member {
     font-weight: 500;
@@ -137,9 +162,10 @@ color: #434455;
 .third-section-title {
     font-weight: 700;
 font-size: 36px;
-line-height: 1.11111;
+line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
+text-transform: capitalize;
 color: #2e2f42;
 }
 .service {
@@ -157,18 +183,20 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .logo-footer {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4d5ae5;
 text-decoration: none;
 }
 .logo-accent-footer {
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
 font-size: 18px;
-line-height: 1.16667;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #f4f4fd;
