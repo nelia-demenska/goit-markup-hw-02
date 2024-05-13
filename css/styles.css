@@ -44,7 +44,7 @@ color: #404bbf;
 .address {
     font-style: normal;
 }
-.mail {
+.contacts {
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -52,31 +52,16 @@ letter-spacing: 0.02em;
 color: #434455;
 text-decoration: none;
 }
-.mail:hover {
+.contacts:hover {
     font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #404bbf;
 }
-.mail:focus {
+.contacts:focus {
     color: #404bbf;
-}
-.tel {
-    font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-text-decoration: none;
-}
-.tel:hover {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #404bbf;  
-}
+}  
 .section-title {
     font-weight: 700;
 font-size: 56px;
@@ -121,12 +106,12 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
-.first-section {
+.feature-list {
     font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 .second-section {
     background-color: #f4f4fd;
